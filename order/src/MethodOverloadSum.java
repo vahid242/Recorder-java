@@ -1,6 +1,6 @@
 public class MethodOverloadSum
 {
-    public static int sum(int n1,int n2)
+    public static int sum(int n1,int n2) throws ArithmeticException
     {
         return n1 + n2;
     }
